@@ -24,8 +24,7 @@
   <body>
     <img src="syslog.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1464784854654" ID="ID_1242869623" MODIFIED="1464849077933" POSITION="left" TEXT=" TLS Contexts Table">
@@ -44,8 +43,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1464785555789" ID="ID_594419533" MODIFIED="1464785560522" POSITION="left" TEXT="voip">
-<node CREATED="1464847511461" FOLDED="true" ID="ID_753356037" MODIFIED="1464853058230" TEXT="Network">
+<node CREATED="1464785555789" ID="ID_594419533" MODIFIED="1464856797709" POSITION="left" TEXT="voip">
+<node CREATED="1464847511461" ID="ID_753356037" MODIFIED="1464856784729" TEXT="Network">
 <cloud/>
 <node CREATED="1464785563358" ID="ID_1974825866" MODIFIED="1464849162355" STYLE="bubble" TEXT="IP interfaces">
 <node CREATED="1464849144908" ID="ID_1912161787" MODIFIED="1464853026060" STYLE="bubble" TEXT="Interface Name: &#x9;O+M+C">
@@ -96,6 +95,31 @@
 <node CREATED="1464847778079" ID="ID_255888557" MODIFIED="1464849051948" TEXT="VLAN ID: &#x9;1"/>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1464856802146" ID="ID_1919747715" MODIFIED="1464856809460" TEXT="Media">
+<node CREATED="1464856859275" ID="ID_1165401550" MODIFIED="1464856926649" STYLE="fork" TEXT="General Settings">
+<node CREATED="1464856865018" ID="ID_222615504" MODIFIED="1464857218758" STYLE="fork" TEXT="&#x9; NAT Mode: Nat is Used">
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="desktop_new"/>
+</node>
+</node>
+<node CREATED="1464856977715" ID="ID_458705171" MODIFIED="1464856980340" TEXT=" General Media Security Settings">
+<node CREATED="1464856983267" ID="ID_763868598" MODIFIED="1464857008352" TEXT=" Media Security : enable">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1464857058795" ID="ID_1626652990" MODIFIED="1464857194338" TEXT=" &#x9; Offered SRTP Cipher Suites: All">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1464857084236" ID="ID_369607256" MODIFIED="1464857137961" TEXT=" &#x9; Authentication On Transmitted RTP Packets ">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1464857101636" ID="ID_155326130" MODIFIED="1464857142792" TEXT="Encryption On Transmitted RTP Packets">
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1464857116412" ID="ID_1116850469" MODIFIED="1464857147577" TEXT=" &#x9; Encryption On Transmitted RTCP Packets">
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
