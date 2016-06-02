@@ -131,5 +131,165 @@
 <node CREATED="1464782620194" ID="ID_916915488" MODIFIED="1464782795942" TEXT="Remote Users"/>
 <node CREATED="1464782598355" ID="ID_1484016827" MODIFIED="1464782795943" TEXT="Sip Trunking OXE"/>
 </node>
+<node CREATED="1464858576777" ID="ID_1858772707" MODIFIED="1464858616010" POSITION="right" TEXT="Setup &amp; maintenance">
+<node CREATED="1464858452104" ID="ID_369444068" MODIFIED="1464858558733">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SBC Maintenance
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        <p style="margin-top: 0.04in; margin-bottom: 0.04in; margin-right: 0in">
+          <font face="Arial, sans-serif">Go to the Web Page : </font><font face="Arial, sans-serif" color="#0000ff"><u>http://&lt;FQDN</u></font><font face="Arial, sans-serif">&#160;SBC&gt;<a name="sdfootnote1anc" class="sdfootnoteanc" href="#sdfootnote1sym"><sup>1</sup></a></font>
+        </p>
+      </li>
+      <li>
+        <p style="margin-bottom: 0.04in; margin-right: 0in; margin-top: 0.04in">
+          <font face="Arial, sans-serif">Login : <b>Admin</b>&#160;password : <b>Admin</b></font>
+        </p>
+      </li>
+    </ul>
+    <div id="sdfootnote1">
+      <p style="margin-bottom: 0.04in; margin-left: 0.69in; margin-right: 0in; margin-top: 0.04in">
+        <font face="Arial, sans-serif"><a name="sdfootnote1sym" class="sdfootnotesym" href="#sdfootnote1anc">1</a>&#160;<b>HTTP and telnet are possible by default. To secure the accesses, change the value in Web Security Settings and Telnet/SSH Settings in System / Management.</b></font>
+      </p>
+      <ul>
+        <li>
+          <p style="margin-right: 0in; margin-top: 0.14in">
+            <font face="Arial, sans-serif" color="#0000ff"><b>To toggle between Full and Basic view:</b></font>
+          </p>
+        </li>
+      </ul>
+      <p align="left" style="margin-bottom: 0.06in; line-height: 100%; margin-left: 0.98in; margin-right: 0in; margin-top: 0.06in; text-indent: -0.3in">
+        <font face="Arial, sans-serif">Select the </font><font face="Arial, sans-serif" color="#000000"><span lang="en-US"><b>Basic </b></span></font><font face="Arial, sans-serif">option (located below the Navigation bar) to display a reduced menu tree; select the </font><font face="Arial, sans-serif" color="#000000"><span lang="en-US"><b>Full </b></span></font><font face="Arial, sans-serif">option to display all the menus. By default, the </font><font face="Arial, sans-serif" color="#000000"><span lang="en-US"><b>Basic</b></span></font><font face="Arial, sans-serif">&#160; option is selected.</font>
+      </p>
+      <p class="sdfootnote-western">
+        <br />
+        <br />
+        
+      </p>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1464858616016" ID="ID_890652568" MODIFIED="1464858729786">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Update version :
+    </p>
+    <ul>
+      <li>
+        <p style="margin-top: 0.06in; margin-bottom: 0.06in; margin-right: 0in">
+          <font face="Arial, sans-serif">Open the &#8216;Software Upgrade Wizard&#8217; page (</font><font face="Arial, sans-serif" color="#000000"><span lang="en-US"><b>Maintenance</b></span></font><font face="Arial, sans-serif">&#160;tab &gt; <b>Software Upgrade&#160;</b>menu)</font>
+        </p>
+        <p style="margin-bottom: 0.06in; margin-right: 0in; margin-top: 0.06in">
+          <font face="Arial, sans-serif">Click on Start Software Upgrade button to start the software upgrade process</font>
+        </p>
+      </li>
+      <li>
+        <ul>
+          <ul>
+            <li>
+              <p style="margin-bottom: 0.06in; margin-right: 0in; margin-top: 0.06in">
+                <font face="Arial, sans-serif">Click on Start Software Upgrade button to start the software upgrade process</font>
+              </p>
+            </li>
+            <li>
+              <p style="margin-bottom: 0.06in; margin-right: 0in; margin-top: 0.06in">
+                <font face="Arial, sans-serif">Then the Wizard window is opened, browse the .cmp file and push Load File.</font>
+              </p>
+            </li>
+            <li>
+              <p style="margin-bottom: 0.06in; margin-right: 0in; margin-top: 0.06in">
+                <font face="Arial, sans-serif">After loading: <b>File ????.xxx.yyy.cmp was successfully loaded into the device</b>, push the Next button to load an INI file or to use the existing configuration.</font>
+              </p>
+            </li>
+            <li>
+              <p style="margin-bottom: 0.06in; margin-right: 0in; margin-top: 0.06in">
+                <font face="Arial, sans-serif">Then click Next to FINISH: <b>You have finished the upgrade process. Click the &quot;Reset&quot; button to burn the configuration to the device flash memory and restart the device</b></font>
+              </p>
+            </li>
+          </ul>
+        </ul>
+        <p style="margin-right: 0in; margin-top: 0.04in" class="western">
+          <br />
+          
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1464858739107" ID="ID_1577199851" MODIFIED="1464858745879" TEXT="Unfortunatly, the CMP is not applicable directly due to its size.  Go the the AdminPage : https://&lt;FQDN SBC&gt;/AdminPage Select&#xa0;: ini Parameters Enter BSPMAXCMPFILESIZE in Parameter Name field then &#xab;&#xa0;Apply New Value&#xa0;&#xbb; in order to show the current value. If the value is lower than the CMP file size, put a new value like 150 and re-apply.  The SBC device must be restarted. "/>
+</node>
+<node CREATED="1464858799147" ID="ID_887157366" MODIFIED="1464858831001">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 lang="en-US" class="western">
+      SBC Software Key.
+    </h3>
+    <p style="margin-right: 0in" class="western">
+      <font face="Arial, sans-serif">Retrieve the Serial Number and fill in a request for the <b>Software Key</b>.</font>
+    </p>
+    <ul>
+      <li>
+        <p style="margin-top: 0.06in; margin-bottom: 0.06in; margin-right: 0in">
+          <font face="Arial, sans-serif">Open the &#8216;Software Upgrade Key&#8217; page (</font><font face="Arial, sans-serif" color="#000000"><span lang="en-US"><b>Status &amp; Diagnostics</b></span></font><font face="Arial, sans-serif">&#160;tab &gt; <b>System Status&#160;</b>menu &gt; <b>Device Information</b>&#160;menu) </font>
+        </p>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p style="margin-right: 0in">
+          <font face="Arial, sans-serif">You will receive a text file with the right software key and apply it.</font>
+        </p>
+      </li>
+      <li>
+        <p style="margin-right: 0in; margin-top: 0.04in">
+          <font face="Tahoma, sans-serif">The SBC device must be restarted.</font>
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1464858931949" ID="ID_549418019" MODIFIED="1464858947429">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="images/serialkey.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1464858935909" ID="ID_1854959845" MODIFIED="1464858980489">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="images/deviceinformation.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </map>
