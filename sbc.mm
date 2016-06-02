@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#00b439" CREATED="1464782635898" ID="ID_1636737501" MODIFIED="1464849896315" STYLE="bubble" TEXT="AudioCode SBC">
+<node COLOR="#00b439" CREATED="1464782635898" ID="ID_1636737501" MODIFIED="1464859461279" STYLE="bubble" TEXT="AudioCode SBC">
 <edge COLOR="#00b439" WIDTH="2"/>
-<font NAME="SansSerif" SIZE="12"/>
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1464784619348" FOLDED="true" ID="ID_444602309" MODIFIED="1464849067369" POSITION="left" TEXT=" Mediant SW Home Page ">
 <node CREATED="1464784437332" ID="ID_477209772" MODIFIED="1464784593401">
 <richcontent TYPE="NODE"><html>
@@ -47,8 +47,8 @@
 <node CREATED="1464847511461" ID="ID_753356037" MODIFIED="1464856784729" TEXT="Network">
 <cloud/>
 <node CREATED="1464785563358" ID="ID_1974825866" MODIFIED="1464849162355" STYLE="bubble" TEXT="IP interfaces">
-<node CREATED="1464849144908" ID="ID_1912161787" MODIFIED="1464853026060" STYLE="bubble" TEXT="Interface Name: &#x9;O+M+C">
-<cloud COLOR="#cccc00"/>
+<node CREATED="1464849144908" ID="ID_1912161787" MODIFIED="1464866070096" STYLE="bubble" TEXT="Interface Name: &#x9;O+M+C">
+<cloud COLOR="#ffcccc"/>
 <node CREATED="1464848550270" FOLDED="true" ID="ID_1311706737" MODIFIED="1464852872228" STYLE="fork" TEXT="snapshot">
 <node CREATED="1464785668223" ID="ID_1857036769" MODIFIED="1464785675785">
 <richcontent TYPE="NODE"><html>
@@ -98,13 +98,9 @@
 </node>
 </node>
 </node>
+<node CREATED="1464865964662" ID="ID_1208264690" MODIFIED="1464866049916" TEXT="SBC,Nat and encryption">
+<cloud COLOR="#ffffcc"/>
 <node CREATED="1464856802146" ID="ID_1919747715" MODIFIED="1464856809460" TEXT="Media">
-<node CREATED="1464856859275" ID="ID_1165401550" MODIFIED="1464856926649" STYLE="fork" TEXT="General Settings">
-<node CREATED="1464856865018" ID="ID_222615504" MODIFIED="1464857218758" STYLE="fork" TEXT="&#x9; NAT Mode: Nat is Used">
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="desktop_new"/>
-</node>
-</node>
 <node CREATED="1464856977715" ID="ID_458705171" MODIFIED="1464856980340" TEXT=" General Media Security Settings">
 <node CREATED="1464856983267" ID="ID_763868598" MODIFIED="1464857008352" TEXT=" Media Security : enable">
 <icon BUILTIN="messagebox_warning"/>
@@ -122,6 +118,76 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1464856859275" ID="ID_1165401550" MODIFIED="1464856926649" STYLE="fork" TEXT="General Settings">
+<node CREATED="1464856865018" ID="ID_222615504" MODIFIED="1464865920077" STYLE="fork">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;NAT Mode: Nat is Used
+    </p>
+    <p style="margin-top: 0.04in; margin-right: 0in" class="western">
+      <font face="Tahoma, sans-serif">The SBC functional application and NAT detection has to be declared.</font>
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="desktop_new"/>
+</node>
+</node>
+</node>
+<node CREATED="1464865186143" ID="ID_1942105875" MODIFIED="1464865198308" TEXT="Applications Enabling">
+<node CREATED="1464865203391" ID="ID_1653799429" MODIFIED="1464865930846">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SBC Application: Enable
+    </p>
+    <p style="margin-top: 0.04in; margin-right: 0in" class="western">
+      <font face="Liberation Serif, serif">The SBC functional application and NAT detection has to be declared.</font>
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="desktop_new"/>
+</node>
+</node>
+</node>
+<node CREATED="1464866124415" ID="ID_268424160" MODIFIED="1464866158017" TEXT="VoIP Network">
+<node CREATED="1464866181040" ID="ID_1450723707" MODIFIED="1464866239608">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SRD table
+    </p>
+    <p class="sdfootnote-western">
+      SRD is the Signaling Routing Domain
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1464866196345" ID="ID_513176437" MODIFIED="1464866205951">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 0.04in; margin-right: 0in" class="western">
+      <font face="Tahoma, sans-serif">Forecasting multi-tenancy feature, a specific and isolated SRD is declared. All definitions are made in that new SRD not the default one.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#006699" CREATED="1464782526505" ID="ID_950982268" MODIFIED="1464782795941" POSITION="right" TEXT="SBC Otec">
@@ -131,7 +197,7 @@
 <node CREATED="1464782620194" ID="ID_916915488" MODIFIED="1464782795942" TEXT="Remote Users"/>
 <node CREATED="1464782598355" ID="ID_1484016827" MODIFIED="1464782795943" TEXT="Sip Trunking OXE"/>
 </node>
-<node CREATED="1464858576777" ID="ID_1858772707" MODIFIED="1464858616010" POSITION="right" TEXT="Setup &amp; maintenance">
+<node CREATED="1464858576777" FOLDED="true" ID="ID_1858772707" MODIFIED="1464865824650" POSITION="right" TEXT="Setup &amp; maintenance">
 <node CREATED="1464858452104" ID="ID_369444068" MODIFIED="1464858558733">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -233,7 +299,7 @@
 </richcontent>
 <node CREATED="1464858739107" ID="ID_1577199851" MODIFIED="1464858745879" TEXT="Unfortunatly, the CMP is not applicable directly due to its size.  Go the the AdminPage : https://&lt;FQDN SBC&gt;/AdminPage Select&#xa0;: ini Parameters Enter BSPMAXCMPFILESIZE in Parameter Name field then &#xab;&#xa0;Apply New Value&#xa0;&#xbb; in order to show the current value. If the value is lower than the CMP file size, put a new value like 150 and re-apply.  The SBC device must be restarted. "/>
 </node>
-<node CREATED="1464858799147" ID="ID_887157366" MODIFIED="1464858831001">
+<node CREATED="1464858799147" FOLDED="true" ID="ID_887157366" MODIFIED="1464859100719">
 <richcontent TYPE="NODE"><html>
   <head>
     
